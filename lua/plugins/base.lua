@@ -8,4 +8,8 @@ return {
       colorscheme = "dracula",
     },
   },
+  {
+    "christoomey/vim-tmux-navigator",
+    lazy = false,
+  },
 }
