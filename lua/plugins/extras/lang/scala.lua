@@ -1,3 +1,7 @@
+-- NOTE: This setup does not define any lsp or dap specific key bindings
+-- It is recommended that the LazyVim extras dap-core is imported "lazyvim.plugins.extras.dap.core"
+-- If you like you can setup your own key bindings.
+-- For minimalistic setup have a look at https://github.com/scalameta/nvim-metals/discussions/39
 return {
   {
     "hrsh7th/nvim-cmp",
