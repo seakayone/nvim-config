@@ -1,11 +1,11 @@
 return {
-  { "Mofiqul/dracula.nvim" },
+  { "catppuccin/nvim" },
   { "nvim-lualine/lualine.nvim", dependecies = { "Mofiqul/dracula.nvim" }, opts = { theme = "dracula-nvim" } },
   {
     "LazyVim/LazyVim",
-    dependecies = { "Mofiqul/dracula.nvim" },
+    dependecies = { "catppuccin/nvim" },
     opts = {
-      colorscheme = "dracula",
+      colorscheme = "catppuccin-mocha",
     },
   },
   {
