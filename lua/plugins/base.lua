@@ -12,4 +12,11 @@ return {
     "christoomey/vim-tmux-navigator",
     lazy = false,
   },
+  {
+    "simrat39/symbols-outline.nvim",
+    cmd = "SymbolsOutline",
+    keys = { { "<leader>cs", "<cmd>SymbolsOutline<cr>", desc = "Symbols Outline" } },
+    config = true,
+  },
+  { "wfxr/minimap.vim", keys = { { "<leader>co", "<cmd>MinimapToggle<cr>", desc = "Toggle minimap" } } },
 }
